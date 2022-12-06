@@ -23,5 +23,5 @@ for($vol=1; $vol <= 6; $vol++) {
         $path = sprintf($save_path_pattern, $vol, $page->order_index);
         file_put_contents($path, $jpg);
     }
-    echo $save_path_pattern;
+    echo $path;
 }
